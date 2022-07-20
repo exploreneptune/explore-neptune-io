@@ -9,7 +9,7 @@ import {
   Grid,
   Col,
 } from '@mantine/core';
-import { ActivityHeartbeat, AlertOctagon, ChartBar } from 'tabler-icons-react';
+import { ActivityHeartbeat, AlertOctagon, ChartBar, BrandOpenSource, FileX } from 'tabler-icons-react';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -44,6 +44,12 @@ const features = [
     title: 'Alerts and Event Logs',
     description:
       'Sort through your firing alerts by severity to stay on top of your alerts',
+  },
+  {
+    icon: BrandOpenSource,
+    title: 'Open Source',
+    description:
+      'Neptune is open source and has room for many more features, we welcome contributors!',
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, Card, Avatar, Text, Group, Button } from '@mantine/core';
-import { BrandTwitter } from 'tabler-icons-react';
+import { BrandTwitter, BrandGithub, BrandLinkedin } from 'tabler-icons-react';
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -23,9 +23,8 @@ const useStyles = createStyles((theme) => ({
 //   job: string;
 //   stats: { label: string; value: string }[];
 // }
-const image =
-  'https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png';
-export function TeamCard() {
+
+export function TeamCard(props: any) {
   const { classes, theme } = useStyles();
 
   // const items = stats.map((stat) => (
@@ -38,17 +37,15 @@ export function TeamCard() {
   //     </Text>
   //   </div>
   // ));
-
   return (
     <Card
-      withBorder
       p='xl'
       radius='md'
       className={classes.card}
-      sx={{ display: 'flex', flexDirection: 'column', width: 350 }}
+      sx={{ display: 'flex', flexDirection: 'column', justifyContent:'center',  width: 300, height: 450, backgroundColor: '#FFFFFF' }}
     >
       <Avatar
-        // src={avatar}
+        src={props.person.avatar}
         size={100}
         radius={100}
         mx='auto'
@@ -56,76 +53,19 @@ export function TeamCard() {
         // className={classes.avatar}
       />
       <Text align='center' size='lg' weight={500} mt='sm'>
-        Swan Htet
+        {props.person.name}
       </Text>
       <Text align='center' size='sm' color='dimmed'>
         Software Engineer
       </Text>
       <Button
-        component='a'
-        target='_blank'
-        rel='noopener noreferrer'
-        href='https://twitter.com/mantinedev'
-        leftIcon={<BrandTwitter size={18} />}
-        styles={(theme) => ({
-          root: {
-            backgroundColor: '#00acee',
-            border: 0,
-            height: 42,
-            width: 300,
-            paddingLeft: 20,
-            paddingRight: 20,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'flex-end',
-
-            '&:hover': {
-              backgroundColor: theme.fn.darken('#00acee', 0.05),
-            },
-          },
-
-          leftIcon: {
-            marginRight: 15,
-          },
-        })}
-      >
-        Follow on Twitter
-      </Button>
-      <Button
         fullWidth
         radius='md'
         mt='xl'
         size='md'
-        styles={(theme) => ({
-          root: {
-            backgroundColor: '#00acee',
-            border: 0,
-            height: 42,
-            width: 200,
-            paddingLeft: 20,
-            paddingRight: 20,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'flex-end',
-
-            '&:hover': {
-              backgroundColor: theme.fn.darken('#00acee', 0.05),
-            },
-          },
-
-          leftIcon: {
-            marginRight: 15,
-          },
-        })}
-      >
-        Test
-      </Button>
-      <Button
-        fullWidth
-        radius='md'
-        mt='xl'
-        size='md'
+        leftIcon={<BrandGithub size={22}/>}
         color={theme.colorScheme === 'dark' ? undefined : 'dark'}
+        onClick={(e) => window.location.href = `${props.person.git}`}
       >
         Github
       </Button>
@@ -134,10 +74,12 @@ export function TeamCard() {
         radius='md'
         mt='xl'
         size='md'
-        color={theme.colorScheme === 'dark' ? undefined : 'dark'}
+        leftIcon={<BrandLinkedin size={22} />}
+        color="#0072b1"
+        onClick={(e) => window.location.href = `${props.person.linkedin}`}
       >
         LinkedIn
       </Button>
     </Card>
-  );
-}
+  )
+      }
