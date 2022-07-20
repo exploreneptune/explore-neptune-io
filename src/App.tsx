@@ -1,10 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './App.css';
 import HeaderSimple from './components/Navbar';
 import HeroBullets from './components/Hero';
 import { FeaturesTitle } from './components/Feature';
 import { FooterSocial } from './components/Footer';
-import { TeamCard } from './components/TeamCard';
+import { TeamContainer } from './components/TeamContainer';
 
 const links = [
   {
@@ -31,7 +31,7 @@ function App() {
       <HeaderSimple key={1} links={links} />
       <HeroBullets />
       <FeaturesTitle />
-      <TeamCard />
+      <TeamContainer />
       <FooterSocial />
     </div>
   );
