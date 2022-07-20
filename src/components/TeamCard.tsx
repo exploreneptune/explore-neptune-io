@@ -1,6 +1,6 @@
 import React from 'react';
-import { createStyles, Card, Avatar, Text, Group, Button } from '@mantine/core';
-import { BrandTwitter, BrandGithub, BrandLinkedin } from 'tabler-icons-react';
+import { createStyles, Card, Avatar, Text, Button } from '@mantine/core';
+import { BrandGithub, BrandLinkedin } from 'tabler-icons-react';
 
 const useStyles = createStyles((theme) => ({
   card: {
@@ -42,7 +42,14 @@ export function TeamCard(props: any) {
       p='xl'
       radius='md'
       className={classes.card}
-      sx={{ display: 'flex', flexDirection: 'column', justifyContent:'center',  width: 300, height: 450, backgroundColor: '#FFFFFF' }}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        width: 350,
+        height: 450,
+        backgroundColor: '#FFFFFF',
+      }}
     >
       <Avatar
         src={props.person.avatar}
@@ -63,9 +70,9 @@ export function TeamCard(props: any) {
         radius='md'
         mt='xl'
         size='md'
-        leftIcon={<BrandGithub size={22}/>}
+        leftIcon={<BrandGithub size={22} />}
         color={theme.colorScheme === 'dark' ? undefined : 'dark'}
-        onClick={(e) => window.location.href = `${props.person.git}`}
+        onClick={(e) => (window.location.href = `${props.person.git}`)}
       >
         Github
       </Button>
@@ -75,11 +82,11 @@ export function TeamCard(props: any) {
         mt='xl'
         size='md'
         leftIcon={<BrandLinkedin size={22} />}
-        color="#0072b1"
-        onClick={(e) => window.location.href = `${props.person.linkedin}`}
+        color='#0072b1'
+        onClick={(e) => (window.location.href = `${props.person.linkedin}`)}
       >
         LinkedIn
       </Button>
     </Card>
-  )
-      }
+  );
+}

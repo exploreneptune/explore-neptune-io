@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { createStyles, Header, Container, Group, Burger } from '@mantine/core';
 import { useBooleanToggle } from '@mantine/hooks';
-// import { MantineLogo } from '../../shared/MantineLogo';
 import neptune_blue from './neptune_blue.png';
 
 const useStyles = createStyles((theme) => ({
