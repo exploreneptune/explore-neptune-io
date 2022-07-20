@@ -1,47 +1,22 @@
-# Getting Started with Create React App
+# Introducing Neptune
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lightweight, simple, and powerful visualization dashboard for your Kubernetes cluster
 
-## Available Scripts
+## Free and open source 
 
-In the project directory, you can run:
+Just simply clone our github repo to get started
+Port-forward Prometheus – Run the following in your terminal, kubectl port-forward -n <namespace> svc<service name> 9090
+Run Neptune – With 3 simple commands npm install, build, and start
 
-### `npm start`
+### Arm your Kubernetes cluster with a sleek monitoring tool
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Render the metrics of your nodes, pods, and namespaces all in one easy to visualize UI. Focus on what matters, with built in alerts and health monitoring.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Metrics that matter
+Rather than being overloaded with countless metrics, focus on the ones that matter. We highlighted prominent data points related to CPU, Memory, and Network Usage
 
-### `npm test`
+Cluster Health
+Quick and simplified overview of your cluster health and performance
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# explore-neptune-io
+Alerts and Event Logs
+Sort through your firing alerts by severity to stay on top of your alerts
