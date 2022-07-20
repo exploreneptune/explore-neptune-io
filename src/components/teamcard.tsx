@@ -25,7 +25,7 @@ const useStyles = createStyles((theme) => ({
 // }
 const image =
   'https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png';
-export function Teamcard() {
+export function TeamCard() {
   const { classes, theme } = useStyles();
 
   // const items = stats.map((stat) => (
