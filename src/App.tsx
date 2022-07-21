@@ -12,10 +12,6 @@ const links = [
     label: 'About',
   },
   {
-    link: '/',
-    label: 'Team',
-  },
-  {
     link: 'https://github.com/oslabs-beta/Neptune',
     label: 'Github',
   },
