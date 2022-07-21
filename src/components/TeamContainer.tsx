@@ -1,4 +1,3 @@
-import React from 'react';
 import { createStyles, Container } from '@mantine/core';
 import { TeamCard } from './TeamCard';
 
@@ -29,7 +28,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/swan-htet-htet-swan/',
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/96328329?v=4',
+    avatar: './miranda.png',
     name: 'Miranda Jaramillo',
     git: 'https://github.com/mirandajaramillo',
     linkedin: 'https://www.linkedin.com/in/miranda-jaramillo/',
