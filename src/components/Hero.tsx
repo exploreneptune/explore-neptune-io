@@ -11,7 +11,7 @@ import {
   ThemeIcon,
 } from '@mantine/core';
 import { Check } from 'tabler-icons-react';
-import image from '../image.svg';
+import image from '../neptune_kube_ilustration.png';
 
 const useStyles = createStyles((theme) => ({
   inner: {

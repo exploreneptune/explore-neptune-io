@@ -8,11 +8,11 @@ import { TeamContainer } from './components/TeamContainer';
 
 const links = [
   {
-    link: '/about',
+    link: '/',
     label: 'About',
   },
   {
-    link: '/team',
+    link: '/',
     label: 'Team',
   },
   {

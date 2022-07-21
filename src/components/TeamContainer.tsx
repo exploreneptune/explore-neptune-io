@@ -42,8 +42,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/lawyeh/',
   },
   {
-    avatar:
-      'https://media-exp2.licdn.com/dms/image/C4D03AQHNrZQBgLBAIQ/profile-displayphoto-shrink_200_200/0/1594954254076?e=1663804800&v=beta&t=H3loaQ3vTGsnNaBnPUZ0rPyYcv8O-65r1vd-5kbNdNo',
+    avatar: 'https://avatars.githubusercontent.com/u/96557317?v=4',
     name: 'Jin Yoo',
     git: 'https://github.com/iyoojin',
     linkedin: 'https://www.linkedin.com/in/iyoojin/',
