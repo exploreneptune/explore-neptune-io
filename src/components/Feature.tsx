@@ -14,7 +14,6 @@ import {
   AlertOctagon,
   ChartBar,
   BrandOpenSource,
-  FileX,
 } from 'tabler-icons-react';
 
 const useStyles = createStyles((theme) => ({
@@ -49,7 +48,7 @@ const features = [
     icon: ChartBar,
     title: 'Metrics that matter',
     description:
-      'Rather than being overloaded with countless metrics, focus on the ones that matter.  We highlighted prominent data points related to CPU, Memory, and Network Usage',
+      'Neptune highlights prominent data points related to CPU, Memory, and Network Usage',
   },
   {
     icon: ActivityHeartbeat,
@@ -108,12 +107,12 @@ export function FeaturesTitle() {
         <Grid gutter={80}>
           <Col span={12} md={5}>
             <Title className={classes.title} order={2}>
-              Arm your Kubernetes cluster with a sleek monitoring tool
+              Get to know your Kubernetes cluster better with an easy-to-use monitoring tool
             </Title>
             <Text color='dimmed'>
               Render the metrics of your nodes, pods, and namespaces all in one
               easy to visualize UI. Focus on what matters, with built in alerts
-              and health monitoring.
+              and cluster health monitoring.
             </Text>
 
             <Button
