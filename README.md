@@ -1,12 +1,16 @@
 # Introducing Neptune
+<p>
+<img src="https://github.com/MirandaJaramillo/githubImages/blob/main/images/centered_neptune.png" title="neptune" alt="neptune" />&nbsp;
+<p> 
+<p align="center">
+   <strong>Lightweight, simple, and powerful visualization dashboard for your Kubernetes cluster</strong>
 
-Lightweight, simple, and powerful visualization dashboard for your Kubernetes cluster
 
 Kubernetes is on an upward trajectory with developers because of its many benefits that it offers to the software development lifecycle.
 Kubernetes has been on an upward trajectory with developers and for good reason.
 Kubernetes is an orchestration tool that orchestrates containerized microservice applications to deploy and manage the applications and improve reliability and efficiency. 
 
-Kubernetes can appear to be an intimidating topic when a new user is diving into learning about containerization and managing clusters. Neptune is an educational application focused on eliminating the noise so that the user can familiarize themselves in a containerized environment. Neptune is a light-weight monitoring tool that presents relevant metrics. I need to add ten more words to this paragraph. The point of our application is to monitor cluster health and provide a high level overview of what’s happening in a cluster.
+Kubernetes can appear to be an intimidating topic when a new user is diving into learning about containerization and managing clusters. Neptune is an educational application focused on eliminating the noise so that the user can familiarize themselves in a containerized environment. Neptune is a light-weight monitoring tool that presents relevant metrics. The point of our application is to monitor cluster health and provide a high level overview of what’s happening in a cluster.
 
 ## Focus on what matters, with built in alerts and health monitoring.
 
@@ -59,22 +63,63 @@ kubectl port-forward prometheus-prometheus-kube-prometheus-prometheus-0 --namesp
 4. Explore Neptune!
    Go to http://localhost:3000/ and start exploring your Kubernetes cluster!
 
-## Built With
+## 🛠 &nbsp; Built With :
 
-Docker </br>
-Prometheus</br>
-Kubernetes (w/ client-node)</br>
-Node.js</br>
-Express</br>
-React</br>
-React Router</br>
-Chart.js</br>
-Webpack</br>
-Material UI</br>
+<p align="center">
+<img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain-wordmark.svg" title="Kubernetes" alt="Kubernetes" width="50" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-original-wordmark.svg" title="Prometheus" alt="Prometheus" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/webpack/webpack-original-wordmark.svg" title="Webpack"  alt="Webpack" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" title="Postman"  alt="Postman" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" **alt="Git" width="40" height="40"/>&nbsp;
+
+</p>
+
+
+
 
 ## The Core Team
-
-Swan Htet | <a href="https://github.com/swanhtethtetswan">Github</a> <a href="https://www.linkedin.com/in/swan-htet-htet-swan/">LinkedIn</a> </br>
-Miranda Jaramillo | <a href="https://github.com/mirandajaramillo">Github</a> <a href="https://www.linkedin.com/in/miranda-jaramillo/">LinkedIn</a> </br>
-Lawrence Yeh | <a href="https://github.com/lawyeh">Github</a> <a href="https://www.linkedin.com/in/lawyeh/">LinkedIn</a> </br>
-Jin Yoo | <a href="https://github.com/iyoojin">Github</a> <a href="https://www.linkedin.com/in/iyoojin/">LinkedIn</a> </br>
+<table align="center"><tbody><tr>
+  <td align="center" width="150">
+    <img src="https://github.com/MirandaJaramillo/githubImages/blob/main/images/SwanHtet.png" style="height: 5rem; width: 5rem;" />
+    <br/>
+    <strong>Swan Htet</strong>
+    <br/>
+    <a href="https://github.com/swanhtethtetswan">GitHub</a>
+    <br/>
+    <a href="https://www.linkedin.com/in/swan-htet-htet-swan/">LinkedIn</a>
+  </td>
+  <td align="center" width="150">
+    <img src="https://github.com/MirandaJaramillo/githubImages/blob/main/images/Miranda-Headshot2022%20circle.png" style="height: 5rem; width: 5rem;" />
+    <br/>
+    <strong>Miranda Jaramillo</strong>
+    <br/>
+    <a href="https://github.com/mirandajaramillo">GitHub</a>
+    <br/>
+    <a href="https://www.linkedin.com/in/miranda-jaramillo/">LinkedIn</a>
+  </td>
+  <td align="center" width="150">
+    <img src="https://github.com/MirandaJaramillo/githubImages/blob/main/images/LawrenceYeh.png" style="height: 5rem; width: 5rem;" />
+    <br/>
+    <strong>Lawrence Yeh</strong>
+    <br/>
+    <a href="https://github.com/lawyeh">GitHub</a>
+    <br/>
+    <a href="https://www.linkedin.com/in/lawyeh/">LinkedIn</a>
+  </td>
+  <td align="center" width="150">
+    <img src="https://github.com/MirandaJaramillo/githubImages/blob/main/images/JinYoo.png" style="height: 5rem; width: 5rem;" />
+    <br/>
+    <strong>Jin Yoo</strong>
+    <br/>
+    <a href="https://github.com/iyoojin">GitHub</a>
+    <br/>
+    <a href="https://www.linkedin.com/in/iyoojin/">LinkedIn</a>
+  </td>
+</tr></tbody></table>
