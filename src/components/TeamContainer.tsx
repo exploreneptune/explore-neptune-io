@@ -1,9 +1,11 @@
 import { createStyles, Container } from '@mantine/core';
+import { wrap } from 'module';
 import { TeamCard } from './TeamCard';
+import { MediaQuery, Text } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
-    // position: 'relative',
+    position: 'relative',
     boxSizing: 'border-box',
     backgroundColor:
       theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.white,
@@ -11,11 +13,13 @@ const useStyles = createStyles((theme) => ({
   },
 
   inner: {
-    // position: 'relative',
+    position: 'relative',
+    width: 'auto',
     paddingTop: 40,
     paddingBottom: 10,
     display: 'flex',
     justifyContent: 'space-between',
+    flex: 'auto',
   },
 }));
 
@@ -58,7 +62,21 @@ export function TeamContainer() {
 
   return (
     <div className={classes.wrapper}>
-      <Container className={classes.inner}>{teamCardArr}</Container>
+      <MediaQuery
+        query='(max-width: 800px) and (min-width: 200px)'
+        styles={{
+          position: 'relative',
+          width: 'auto',
+          paddingTop: 40,
+          paddingBottom: 10,
+          display: 'flex',
+          justifyContent: 'space-between',
+          flex: 'auto',
+          flexWrap: 'wrap',
+        }}
+      >
+        <Container className={classes.inner}>{teamCardArr}</Container>
+      </MediaQuery>
     </div>
   );
 }
