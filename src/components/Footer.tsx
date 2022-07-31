@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, Container, Group, ActionIcon } from '@mantine/core';
-import { BrandTwitter, BrandGithub, Compass } from 'tabler-icons-react';
+import { BrandGithub, Compass } from 'tabler-icons-react';
 import neptune_blue from './neptune_blue_no_name.png';
 
 const useStyles = createStyles((theme) => ({
@@ -39,9 +39,6 @@ export function FooterSocial() {
         <img src={neptune_blue} alt='' height='50' />
         <p>© 2022 Neptune | MIT License</p>
         <Group spacing={0} className={classes.links} position='right' noWrap>
-          <ActionIcon size='lg'>
-            <BrandTwitter size={18} />
-          </ActionIcon>
           <ActionIcon size='lg'>
             <BrandGithub
               size={18}

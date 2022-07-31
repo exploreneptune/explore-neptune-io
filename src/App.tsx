@@ -11,16 +11,16 @@ const links = [
     link: '/',
     label: 'About',
   },
-  {
-    link: '/',
-    label: 'Team',
-  },
+  // {
+  //   link: '/',
+  //   label: 'Team',
+  // },
   {
     link: 'https://github.com/oslabs-beta/Neptune',
     label: 'Github',
   },
   {
-    link: '/blog',
+    link: 'https://medium.com/@lawyeh/introducing-neptune-fecb0299cfa1',
     label: 'Blog',
   },
 ];

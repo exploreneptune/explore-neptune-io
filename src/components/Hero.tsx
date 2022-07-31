@@ -79,7 +79,7 @@ export default function HeroBullets() {
               Introducing <span className={classes.highlight}>Neptune</span>
             </Title>
             <Text color='dimmed' mt='md'>
-              Lightweight, simple, and powerful visualization dashboard for your
+              Light-weight, simple, and straightforward learning tool for your
               Kubernetes cluster
             </Text>
 
@@ -94,17 +94,14 @@ export default function HeroBullets() {
               }
             >
               <List.Item>
-                <b>Free and open source</b> – Just simply clone our github repo
-                to get started
-              </List.Item>
-              <List.Item>
-                <b>Port-forward Prometheus</b> – Run the following in your
-                terminal, kubectl port-forward -n {`<`}namespace{`>`} svc
-                {`<`}service name{`>`} 9090
-              </List.Item>
-              <List.Item>
-                <b>Run Neptune</b> – With 3 simple commands npm install, build,
+                <b>Launch Neptune</b> – With 3 simple commands npm install, build,
                 and start
+              </List.Item>
+              <List.Item>
+                <b>Start learning Kubernetes</b> – Neptune makes the initial Kubernetes experience more approachable and easier to digest
+              </List.Item>
+              <List.Item>
+                <b>Free and open source</b> – Neptune welcomes contributors! There is always room for more features! 
               </List.Item>
             </List>
 
