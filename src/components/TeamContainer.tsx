@@ -39,7 +39,7 @@ const teamMembers = [
   },
   {
     avatar:
-      'https://media-exp2.licdn.com/dms/image/C5603AQEqdd8CSDonCg/profile-displayphoto-shrink_200_200/0/1633587402187?e=1663804800&v=beta&t=27nUXVfZ2-Zx6PLr9SYyZHslpif-0LPG7B-Ym_skVdU',
+      'https://media.licdn.com/dms/image/C5603AQEqdd8CSDonCg/profile-displayphoto-shrink_200_200/0/1633587402187?e=1677110400&v=beta&t=_iQaHviTq83ABXUBTbjhwNarU5Y0I1vUiW_64OqdJ6c',
     name: 'Lawrence Yeh',
     git: 'https://github.com/lawyeh',
     linkedin: 'https://www.linkedin.com/in/lawyeh/',
