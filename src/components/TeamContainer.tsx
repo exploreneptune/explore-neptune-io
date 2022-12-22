@@ -26,7 +26,7 @@ const useStyles = createStyles((theme) => ({
 const teamMembers = [
   {
     avatar:
-      'https://media-exp2.licdn.com/dms/image/C5603AQExE3499MuoyQ/profile-displayphoto-shrink_200_200/0/1652498346839?e=1663804800&v=beta&t=IUrcL_sh30MQVq80srMHHXSxShH4CgmN7bnS9Nbuh98',
+      'https://media.licdn.com/dms/image/C5603AQExE3499MuoyQ/profile-displayphoto-shrink_200_200/0/1652498346839?e=1677110400&v=beta&t=oIcHnpZGtwzaY504gS9bYJM1XeD6fCg6OyHEGARpoGY',
     name: 'Swan Htet',
     git: 'https://github.com/swanhtethtetswan',
     linkedin: 'https://www.linkedin.com/in/swan-htet-htet-swan/',
